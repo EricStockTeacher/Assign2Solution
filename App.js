@@ -21,7 +21,7 @@ export default function App() {
   return (
       <View style={styles.container}>
         <Text>Top 3 Movies</Text>
-        <Movie movie={movies[movieIndex]} image={imageList[movieIndex]} movieIndex={movieIndex} />
+        <Movie movie={movies[movieIndex]} image={imageList[movieIndex]} />
         { movies.map( (movie, index ) => {
             return <Button label={index} onPress={handleMoviePress} key={index} />
          })

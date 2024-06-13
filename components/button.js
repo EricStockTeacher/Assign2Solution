@@ -2,7 +2,6 @@ import { StyleSheet, View, Pressable, Text } from 'react-native';
 
 export default function Button({ label, onPress }) {
   const pressHandler = () => {
-  console.log(label);
     onPress(label);
   }
 

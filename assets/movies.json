@@ -2,19 +2,16 @@
   {
   "name": "Terminator 2",
   "year": "1991",
-  "actors": ["Arnold", "Linda", "Edward"],
-  "imageIndex": 0
+  "actors": ["Arnold", "Linda", "Edward"]
   },
   {
     "name": "Terminator 1",
     "year": "1984",
-    "actors": ["Arnold", "Linda"],
-    "imageIndex": 1
+    "actors": ["Arnold", "Linda"]
   },
   {
     "name": "Titanic",
     "year": "1997",
-    "actors": ["Leo", "Kate"],
-    "imageIndex": 2
+    "actors": ["Leo", "Kate"]
   }
 ]
